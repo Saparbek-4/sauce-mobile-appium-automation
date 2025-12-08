@@ -1,0 +1,8 @@
+app:
+    apk_path: ./apk/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+    package: com.swaglabsmobileapp
+    activity: com.swaglabsmobileapp.MainActivity
+device:
+    platformName: Android
+    platformVersion: '11.0'
+    deviceName: 165b110b2612
