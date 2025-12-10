@@ -1,5 +1,5 @@
 # Automatable Test Scenarios — Sauce Labs Mobile App (Android)
-Author: Saparbek — SDET (Python + Appium)
+Author: Saparbek — SDET 
 
 ## 1. Login — Automated Test Scenarios
 
@@ -409,15 +409,7 @@ Author: Saparbek — SDET (Python + Appium)
 - UI корректен
 - Статус корзины сохранён
 
-### TC-EG-004 — Стресс-тест ADD/REMOVE (20 циклов)
-
-**Тип:** Performance
-
-**Ожидаемый результат:**
-- Badge корректен
-- Нет задержек и ошибок
-
-### TC-EG-005 — Быстрый скроллинг (10 циклов)
+### TC-EG-004 — Быстрый скроллинг (10 циклов)
 
 **Тип:** Stability
 

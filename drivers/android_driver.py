@@ -18,9 +18,7 @@ def create_android_driver(config_path='config/dev.yml'):
     options.set_capability("appWaitActivity", cfg['app']['activity'])
     options.set_capability("autoGrantPermissions", True)
 
-    driver = Remote(
+    return Remote(
         command_executor='http://localhost:4723',
         options=options
     )
-
-    return driver

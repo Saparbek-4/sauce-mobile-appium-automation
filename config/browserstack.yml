@@ -1,0 +1,7 @@
+capabilities:
+  platformName: Android
+  deviceName: Samsung Galaxy S23
+  platformVersion: "13.0"
+  project: "Mobile Automation"
+  build: "Appium-Python Demo"
+  sessionName: "Pytest Run"

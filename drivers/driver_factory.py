@@ -1,7 +1,10 @@
 from drivers.android_driver import create_android_driver
+from drivers.browserstack_driver import create_browserstack_driver
 
-def get_driver(platform='android', config_path='config/dev.yml'):
-    if platform == 'android':
-        return create_android_driver(config_path)
+def get_driver(env="local"):
+    if env == "local":
+        return create_android_driver("config/dev.yml")
+    elif env == "browserstack":
+        return create_browserstack_driver("config/browserstack.yml")
     else:
-        raise NotImplementedError('Only Android is implemented in this project.')
+        raise ValueError("Unknown driver environment")
