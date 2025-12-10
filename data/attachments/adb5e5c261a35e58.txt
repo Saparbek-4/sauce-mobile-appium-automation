@@ -1,0 +1,62 @@
+INFO     framework:base_page.py:10 Initialized page object: LoginPage
+INFO     framework:login_page.py:43 Attempting login with user: standard_user
+INFO     framework:login_page.py:16 Entering username: standard_user
+INFO     framework:base_page.py:56 Typing 'standard_user' into ('accessibility id', 'test-Username')
+INFO     framework:base_page.py:16 Finding element: ('accessibility id', 'test-Username')
+INFO     framework.waits:waits.py:20 [WAIT] visibility of element: ('accessibility id', 'test-Username')
+INFO     framework:base_page.py:19 Element found: ('accessibility id', 'test-Username')
+INFO     framework:base_page.py:61 Typing successful
+INFO     framework:login_page.py:19 Username entered successfully
+INFO     framework:login_page.py:25 Entering password
+INFO     framework:base_page.py:56 Typing 'secret_sauce' into ('accessibility id', 'test-Password')
+INFO     framework:base_page.py:16 Finding element: ('accessibility id', 'test-Password')
+INFO     framework.waits:waits.py:20 [WAIT] visibility of element: ('accessibility id', 'test-Password')
+INFO     framework:base_page.py:19 Element found: ('accessibility id', 'test-Password')
+INFO     framework:base_page.py:61 Typing successful
+INFO     framework:login_page.py:28 Password entered successfully
+INFO     framework:login_page.py:34 Clicking LOGIN button
+INFO     framework:base_page.py:34 Tapping element by locator: ('accessibility id', 'test-LOGIN')
+INFO     framework:base_page.py:16 Finding element: ('accessibility id', 'test-LOGIN')
+INFO     framework.waits:waits.py:20 [WAIT] visibility of element: ('accessibility id', 'test-LOGIN')
+INFO     framework:base_page.py:19 Element found: ('accessibility id', 'test-LOGIN')
+INFO     framework:base_page.py:42 Tap successful
+INFO     framework:login_page.py:37 LOGIN button tapped successfully
+INFO     framework:login_page.py:49 Login submitted — navigating to ProductsPage
+INFO     framework:base_page.py:10 Initialized page object: ProductsPage
+INFO     framework:products_page.py:14 Checking if Products page is loaded
+INFO     framework:base_page.py:85 Checking visibility: ('xpath', "//android.widget.TextView[@text='PRODUCTS']")
+INFO     framework.waits:waits.py:20 [WAIT] visibility of element: ('xpath', "//android.widget.TextView[@text='PRODUCTS']")
+INFO     framework:base_page.py:88 Element is visible
+INFO     framework:products_page.py:16 Products page loaded: True
+INFO     framework:products_page.py:30 Adding product to cart: Sauce Labs Backpack
+INFO     framework:base_page.py:159 Searching for element with scrolling: ('xpath', "//*[@content-desc='test-Item title'][@text='Sauce Labs Backpack']/../..//*[@content-desc='test-ADD TO CART']")
+INFO     framework:base_page.py:26 Finding elements: ('xpath', "//*[@content-desc='test-Item title'][@text='Sauce Labs Backpack']/../..//*[@content-desc='test-ADD TO CART']")
+INFO     framework:base_page.py:28 Found 1 elements for ('xpath', "//*[@content-desc='test-Item title'][@text='Sauce Labs Backpack']/../..//*[@content-desc='test-ADD TO CART']")
+INFO     framework:base_page.py:163 Element found after 0 scrolls
+INFO     framework:base_page.py:37 Tapping WebElement directly
+INFO     framework:base_page.py:42 Tap successful
+INFO     framework:products_page.py:36 Product successfully added: Sauce Labs Backpack
+INFO     framework:products_page.py:174 Opening cart
+INFO     framework:base_page.py:34 Tapping element by locator: ('accessibility id', 'test-Cart')
+INFO     framework:base_page.py:16 Finding element: ('accessibility id', 'test-Cart')
+INFO     framework.waits:waits.py:20 [WAIT] visibility of element: ('accessibility id', 'test-Cart')
+INFO     framework:base_page.py:19 Element found: ('accessibility id', 'test-Cart')
+INFO     framework:base_page.py:42 Tap successful
+INFO     framework:base_page.py:10 Initialized page object: CartPage
+INFO     framework:cart_page.py:79 Attempting to click 'Continue Shopping'
+INFO     framework:base_page.py:34 Tapping element by locator: ('accessibility id', 'test-CONTINUE SHOPPING')
+INFO     framework:base_page.py:16 Finding element: ('accessibility id', 'test-CONTINUE SHOPPING')
+INFO     framework.waits:waits.py:20 [WAIT] visibility of element: ('accessibility id', 'test-CONTINUE SHOPPING')
+INFO     framework:base_page.py:19 Element found: ('accessibility id', 'test-CONTINUE SHOPPING')
+INFO     framework:base_page.py:42 Tap successful
+INFO     framework:cart_page.py:81 'Continue Shopping' clicked
+INFO     framework:products_page.py:14 Checking if Products page is loaded
+INFO     framework:base_page.py:85 Checking visibility: ('xpath', "//android.widget.TextView[@text='PRODUCTS']")
+INFO     framework.waits:waits.py:20 [WAIT] visibility of element: ('xpath', "//android.widget.TextView[@text='PRODUCTS']")
+INFO     framework:base_page.py:88 Element is visible
+INFO     framework:products_page.py:16 Products page loaded: True
+INFO     framework:products_page.py:147 Reading cart badge value
+INFO     framework:base_page.py:69 Getting text from: ('xpath', "//*[@content-desc='test-Cart']//android.widget.TextView")
+INFO     framework.waits:waits.py:20 [WAIT] visibility of element: ('xpath', "//*[@content-desc='test-Cart']//android.widget.TextView")
+INFO     framework:base_page.py:72 Received text: '1'
+INFO     framework:products_page.py:150 Cart badge = 1

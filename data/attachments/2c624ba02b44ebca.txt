@@ -1,0 +1,108 @@
+INFO     framework:base_page.py:10 Initialized page object: LoginPage
+INFO     framework:login_page.py:43 Attempting login with user: standard_user
+INFO     framework:login_page.py:16 Entering username: standard_user
+INFO     framework:base_page.py:56 Typing 'standard_user' into ('accessibility id', 'test-Username')
+INFO     framework:base_page.py:16 Finding element: ('accessibility id', 'test-Username')
+INFO     framework.waits:waits.py:20 [WAIT] visibility of element: ('accessibility id', 'test-Username')
+INFO     framework:base_page.py:19 Element found: ('accessibility id', 'test-Username')
+INFO     framework:base_page.py:61 Typing successful
+INFO     framework:login_page.py:19 Username entered successfully
+INFO     framework:login_page.py:25 Entering password
+INFO     framework:base_page.py:56 Typing 'secret_sauce' into ('accessibility id', 'test-Password')
+INFO     framework:base_page.py:16 Finding element: ('accessibility id', 'test-Password')
+INFO     framework.waits:waits.py:20 [WAIT] visibility of element: ('accessibility id', 'test-Password')
+INFO     framework:base_page.py:19 Element found: ('accessibility id', 'test-Password')
+INFO     framework:base_page.py:61 Typing successful
+INFO     framework:login_page.py:28 Password entered successfully
+INFO     framework:login_page.py:34 Clicking LOGIN button
+INFO     framework:base_page.py:34 Tapping element by locator: ('accessibility id', 'test-LOGIN')
+INFO     framework:base_page.py:16 Finding element: ('accessibility id', 'test-LOGIN')
+INFO     framework.waits:waits.py:20 [WAIT] visibility of element: ('accessibility id', 'test-LOGIN')
+INFO     framework:base_page.py:19 Element found: ('accessibility id', 'test-LOGIN')
+INFO     framework:base_page.py:42 Tap successful
+INFO     framework:login_page.py:37 LOGIN button tapped successfully
+INFO     framework:login_page.py:49 Login submitted — navigating to ProductsPage
+INFO     framework:base_page.py:10 Initialized page object: ProductsPage
+INFO     framework:products_page.py:14 Checking if Products page is loaded
+INFO     framework:base_page.py:85 Checking visibility: ('xpath', "//android.widget.TextView[@text='PRODUCTS']")
+INFO     framework.waits:waits.py:20 [WAIT] visibility of element: ('xpath', "//android.widget.TextView[@text='PRODUCTS']")
+INFO     framework:base_page.py:88 Element is visible
+INFO     framework:products_page.py:16 Products page loaded: True
+INFO     framework:products_page.py:30 Adding product to cart: Sauce Labs Backpack
+INFO     framework:base_page.py:159 Searching for element with scrolling: ('xpath', "//*[@content-desc='test-Item title'][@text='Sauce Labs Backpack']/../..//*[@content-desc='test-ADD TO CART']")
+INFO     framework:base_page.py:26 Finding elements: ('xpath', "//*[@content-desc='test-Item title'][@text='Sauce Labs Backpack']/../..//*[@content-desc='test-ADD TO CART']")
+INFO     framework:base_page.py:28 Found 1 elements for ('xpath', "//*[@content-desc='test-Item title'][@text='Sauce Labs Backpack']/../..//*[@content-desc='test-ADD TO CART']")
+INFO     framework:base_page.py:163 Element found after 0 scrolls
+INFO     framework:base_page.py:37 Tapping WebElement directly
+INFO     framework:base_page.py:42 Tap successful
+INFO     framework:products_page.py:36 Product successfully added: Sauce Labs Backpack
+INFO     framework:products_page.py:174 Opening cart
+INFO     framework:base_page.py:34 Tapping element by locator: ('accessibility id', 'test-Cart')
+INFO     framework:base_page.py:16 Finding element: ('accessibility id', 'test-Cart')
+INFO     framework.waits:waits.py:20 [WAIT] visibility of element: ('accessibility id', 'test-Cart')
+INFO     framework:base_page.py:19 Element found: ('accessibility id', 'test-Cart')
+INFO     framework:base_page.py:42 Tap successful
+INFO     framework:base_page.py:10 Initialized page object: CartPage
+INFO     framework:cart_page.py:85 Attempting to click Checkout button
+INFO     framework:base_page.py:34 Tapping element by locator: ('accessibility id', 'test-CHECKOUT')
+INFO     framework:base_page.py:16 Finding element: ('accessibility id', 'test-CHECKOUT')
+INFO     framework.waits:waits.py:20 [WAIT] visibility of element: ('accessibility id', 'test-CHECKOUT')
+INFO     framework:base_page.py:19 Element found: ('accessibility id', 'test-CHECKOUT')
+INFO     framework:base_page.py:42 Tap successful
+INFO     framework:cart_page.py:87 Checkout button clicked
+INFO     framework:base_page.py:10 Initialized page object: CheckoutInfoPage
+INFO     framework:checkout_info_page.py:10 Checking if Checkout Info page is loaded
+INFO     framework:base_page.py:85 Checking visibility: ('xpath', "//*[@text='CHECKOUT: INFORMATION']")
+INFO     framework.waits:waits.py:20 [WAIT] visibility of element: ('xpath', "//*[@text='CHECKOUT: INFORMATION']")
+INFO     framework:base_page.py:88 Element is visible
+INFO     framework:checkout_info_page.py:12 Checkout Info page loaded: True
+INFO     framework:checkout_info_page.py:16 Filling checkout form: John Doe, zip=12345
+INFO     framework:base_page.py:56 Typing 'John' into ('accessibility id', 'test-First Name')
+INFO     framework:base_page.py:16 Finding element: ('accessibility id', 'test-First Name')
+INFO     framework.waits:waits.py:20 [WAIT] visibility of element: ('accessibility id', 'test-First Name')
+INFO     framework:base_page.py:19 Element found: ('accessibility id', 'test-First Name')
+INFO     framework:base_page.py:61 Typing successful
+INFO     framework:base_page.py:56 Typing 'Doe' into ('accessibility id', 'test-Last Name')
+INFO     framework:base_page.py:16 Finding element: ('accessibility id', 'test-Last Name')
+INFO     framework.waits:waits.py:20 [WAIT] visibility of element: ('accessibility id', 'test-Last Name')
+INFO     framework:base_page.py:19 Element found: ('accessibility id', 'test-Last Name')
+INFO     framework:base_page.py:61 Typing successful
+INFO     framework:base_page.py:56 Typing '12345' into ('accessibility id', 'test-Zip/Postal Code')
+INFO     framework:base_page.py:16 Finding element: ('accessibility id', 'test-Zip/Postal Code')
+INFO     framework.waits:waits.py:20 [WAIT] visibility of element: ('accessibility id', 'test-Zip/Postal Code')
+INFO     framework:base_page.py:19 Element found: ('accessibility id', 'test-Zip/Postal Code')
+INFO     framework:base_page.py:61 Typing successful
+INFO     framework:checkout_info_page.py:22 Checkout form filled successfully
+INFO     framework:checkout_info_page.py:28 Submitting checkout info form
+INFO     framework:base_page.py:34 Tapping element by locator: ('accessibility id', 'test-CONTINUE')
+INFO     framework:base_page.py:16 Finding element: ('accessibility id', 'test-CONTINUE')
+INFO     framework.waits:waits.py:20 [WAIT] visibility of element: ('accessibility id', 'test-CONTINUE')
+INFO     framework:base_page.py:19 Element found: ('accessibility id', 'test-CONTINUE')
+INFO     framework:base_page.py:42 Tap successful
+INFO     framework:checkout_info_page.py:30 Navigating to Checkout Overview page
+INFO     framework:base_page.py:10 Initialized page object: CheckoutOverviewPage
+INFO     framework:checkout_overview_page.py:10 Checking if Checkout Overview page is loaded
+INFO     framework:base_page.py:85 Checking visibility: ('xpath', "//*[@text='CHECKOUT: OVERVIEW']")
+INFO     framework.waits:waits.py:20 [WAIT] visibility of element: ('xpath', "//*[@text='CHECKOUT: OVERVIEW']")
+INFO     framework:base_page.py:88 Element is visible
+INFO     framework:checkout_overview_page.py:12 Checkout Overview page loaded: True
+INFO     framework:checkout_overview_page.py:33 Reading totals from checkout overview
+INFO     framework:base_page.py:159 Searching for element with scrolling: ('xpath', "//*[contains(@text, 'Tax')]")
+INFO     framework:base_page.py:26 Finding elements: ('xpath', "//*[contains(@text, 'Tax')]")
+INFO     framework:base_page.py:28 Found 0 elements for ('xpath', "//*[contains(@text, 'Tax')]")
+INFO     framework:base_page.py:165 Element not found, scrolling down
+INFO     framework:base_page.py:97 Scrolling DOWN
+INFO     framework:base_page.py:108 Scroll down successful
+INFO     framework:base_page.py:26 Finding elements: ('xpath', "//*[contains(@text, 'Tax')]")
+INFO     framework:base_page.py:28 Found 1 elements for ('xpath', "//*[contains(@text, 'Tax')]")
+INFO     framework:base_page.py:163 Element found after 1 scrolls
+INFO     framework:base_page.py:69 Getting text from: ('xpath', "//*[contains(@text, 'Item total')]")
+INFO     framework.waits:waits.py:20 [WAIT] visibility of element: ('xpath', "//*[contains(@text, 'Item total')]")
+INFO     framework:base_page.py:72 Received text: 'Item total: $29.99'
+INFO     framework:base_page.py:69 Getting text from: ('xpath', "//*[contains(@text, 'Tax')]")
+INFO     framework.waits:waits.py:20 [WAIT] visibility of element: ('xpath', "//*[contains(@text, 'Tax')]")
+INFO     framework:base_page.py:72 Received text: 'Tax: $2.40'
+INFO     framework:base_page.py:69 Getting text from: ('xpath', "//*[contains(@text, 'Total')]")
+INFO     framework.waits:waits.py:20 [WAIT] visibility of element: ('xpath', "//*[contains(@text, 'Total')]")
+INFO     framework:base_page.py:72 Received text: 'Total: $32.39'
+INFO     framework:checkout_overview_page.py:42 Totals collected: {'item_total': 'Item total: $29.99', 'tax': 'Tax: $2.40', 'total': 'Total: $32.39'}

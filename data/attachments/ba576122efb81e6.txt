@@ -1,0 +1,54 @@
+INFO     framework:base_page.py:10 Initialized page object: LoginPage
+INFO     framework:login_page.py:43 Attempting login with user: standard_user
+INFO     framework:login_page.py:16 Entering username: standard_user
+INFO     framework:base_page.py:56 Typing 'standard_user' into ('accessibility id', 'test-Username')
+INFO     framework:base_page.py:16 Finding element: ('accessibility id', 'test-Username')
+INFO     framework.waits:waits.py:20 [WAIT] visibility of element: ('accessibility id', 'test-Username')
+INFO     framework:base_page.py:19 Element found: ('accessibility id', 'test-Username')
+INFO     framework:base_page.py:61 Typing successful
+INFO     framework:login_page.py:19 Username entered successfully
+INFO     framework:login_page.py:25 Entering password
+INFO     framework:base_page.py:56 Typing 'secret_sauce' into ('accessibility id', 'test-Password')
+INFO     framework:base_page.py:16 Finding element: ('accessibility id', 'test-Password')
+INFO     framework.waits:waits.py:20 [WAIT] visibility of element: ('accessibility id', 'test-Password')
+INFO     framework:base_page.py:19 Element found: ('accessibility id', 'test-Password')
+INFO     framework:base_page.py:61 Typing successful
+INFO     framework:login_page.py:28 Password entered successfully
+INFO     framework:login_page.py:34 Clicking LOGIN button
+INFO     framework:base_page.py:34 Tapping element by locator: ('accessibility id', 'test-LOGIN')
+INFO     framework:base_page.py:16 Finding element: ('accessibility id', 'test-LOGIN')
+INFO     framework.waits:waits.py:20 [WAIT] visibility of element: ('accessibility id', 'test-LOGIN')
+INFO     framework:base_page.py:19 Element found: ('accessibility id', 'test-LOGIN')
+INFO     framework:base_page.py:42 Tap successful
+INFO     framework:login_page.py:37 LOGIN button tapped successfully
+INFO     framework:login_page.py:49 Login submitted — navigating to ProductsPage
+INFO     framework:base_page.py:10 Initialized page object: ProductsPage
+INFO     framework:products_page.py:14 Checking if Products page is loaded
+INFO     framework:base_page.py:85 Checking visibility: ('xpath', "//android.widget.TextView[@text='PRODUCTS']")
+INFO     framework.waits:waits.py:20 [WAIT] visibility of element: ('xpath', "//android.widget.TextView[@text='PRODUCTS']")
+INFO     framework:base_page.py:88 Element is visible
+INFO     framework:products_page.py:16 Products page loaded: True
+INFO     framework:products_page.py:169 Opening side menu
+INFO     framework:base_page.py:34 Tapping element by locator: ('accessibility id', 'test-Menu')
+INFO     framework:base_page.py:16 Finding element: ('accessibility id', 'test-Menu')
+INFO     framework.waits:waits.py:20 [WAIT] visibility of element: ('accessibility id', 'test-Menu')
+INFO     framework:base_page.py:19 Element found: ('accessibility id', 'test-Menu')
+INFO     framework:base_page.py:42 Tap successful
+INFO     framework:base_page.py:10 Initialized page object: MenuPage
+INFO     framework:menu_page.py:9 Checking if Menu is loaded
+INFO     framework:base_page.py:85 Checking visibility: ('accessibility id', 'test-Close')
+INFO     framework.waits:waits.py:20 [WAIT] visibility of element: ('accessibility id', 'test-Close')
+INFO     framework:base_page.py:88 Element is visible
+INFO     framework:menu_page.py:11 Menu loaded: True
+INFO     framework:menu_page.py:44 Clicking logout in menu
+INFO     framework:base_page.py:34 Tapping element by locator: ('accessibility id', 'test-LOGOUT')
+INFO     framework:base_page.py:16 Finding element: ('accessibility id', 'test-LOGOUT')
+INFO     framework.waits:waits.py:20 [WAIT] visibility of element: ('accessibility id', 'test-LOGOUT')
+INFO     framework:base_page.py:19 Element found: ('accessibility id', 'test-LOGOUT')
+INFO     framework:base_page.py:42 Tap successful
+INFO     framework:menu_page.py:47 Logout clicked
+INFO     framework:base_page.py:10 Initialized page object: LoginPage
+INFO     framework:base_page.py:85 Checking visibility: ('accessibility id', 'test-LOGIN')
+INFO     framework.waits:waits.py:20 [WAIT] visibility of element: ('accessibility id', 'test-LOGIN')
+INFO     framework:base_page.py:88 Element is visible
+INFO     framework:login_page.py:54 Is login screen visible: True

@@ -1,0 +1,12 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"TC-MN-001 — Open and close menu","4201","test_menu_open_and_close","tests","Wed Dec 10 22:53:03 UTC 2025","passed","Wed Dec 10 22:53:07 UTC 2025","","test_menu","",""
+"","16499","test_remove_from_products","tests","Wed Dec 10 22:54:52 UTC 2025","passed","Wed Dec 10 22:55:08 UTC 2025","","test_product","",""
+"","3704","test_continue_shopping","tests","Wed Dec 10 22:51:16 UTC 2025","passed","Wed Dec 10 22:51:20 UTC 2025","","test_cart","",""
+"","14656","test_overview_totals","tests","Wed Dec 10 22:51:41 UTC 2025","passed","Wed Dec 10 22:51:56 UTC 2025","","test_checkout","",""
+"
+    TC-LG-001 — Успешный вход стандартного пользователя
+    ","20535","test_login_success_standard_user","tests","Wed Dec 10 22:52:19 UTC 2025","passed","Wed Dec 10 22:52:39 UTC 2025","","test_login","",""
+"TC-MN-002 — Logout","4316","test_logout","tests","Wed Dec 10 22:53:29 UTC 2025","passed","Wed Dec 10 22:53:33 UTC 2025","","test_menu","",""
+"","1373","test_add_item_to_cart","tests","Wed Dec 10 22:54:29 UTC 2025","passed","Wed Dec 10 22:54:31 UTC 2025","","test_product","",""
+"","12683","test_products_screen_elements","tests","Wed Dec 10 22:53:55 UTC 2025","passed","Wed Dec 10 22:54:08 UTC 2025","","test_product","",""
+"","8666","test_cart_view","tests","Wed Dec 10 22:50:48 UTC 2025","passed","Wed Dec 10 22:50:56 UTC 2025","","test_cart","",""
