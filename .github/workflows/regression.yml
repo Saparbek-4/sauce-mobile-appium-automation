@@ -1,12 +1,12 @@
-name: Android Tests (BrowserStack)
+name: Full Regression (BrowserStack)
 
 on:
-  push:
-    branches: [ main ]
-  pull_request:
+  workflow_dispatch:   # manual 
+  schedule:
+    - cron: "0 3 * * *"   # every night at 03:00 UTC
 
 jobs:
-  appium-tests:
+  regression:
     runs-on: ubuntu-latest
 
     env:
@@ -15,7 +15,7 @@ jobs:
       BS_APP_ID: ${{ secrets.BS_APP_ID }}
 
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Set up Python
@@ -28,12 +28,17 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run Appium tests on BrowserStack
+      - name: Run full test suite (parallel)
         run: |
           pytest --env=browserstack --alluredir=allure-results
 
-      - name: Upload allure result artifacts
+      - name: Generate Allure Report
+        run: |
+          pip install allure-pytest
+          allure generate allure-results --clean -o allure-report
+
+      - name: Upload Allure Report as artifact
         uses: actions/upload-artifact@v4
         with:
-          name: allure-results
-          path: allure-results
+          name: allure-report
+          path: allure-report

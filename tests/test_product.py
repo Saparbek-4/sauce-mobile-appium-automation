@@ -8,12 +8,13 @@ def test_products_screen_elements(products_page):
     assert len(names) >= 1
 
 
+@pytest.mark.smoke
 @pytest.mark.functional
 def test_add_item_to_cart(products_page):
     products_page.add_product_to_cart("Sauce Labs Bike Light")
     assert products_page.cart_badge_value() == 1
 
-
+@pytest.mark.smoke
 @pytest.mark.functional
 def test_remove_from_products(products_page):
     products_page.add_product_to_cart("Sauce Labs Bike Light")

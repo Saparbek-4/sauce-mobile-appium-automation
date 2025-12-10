@@ -11,6 +11,7 @@ PRODUCT_2 = "Sauce Labs Bike Light"
 @allure.story("View cart items")
 @allure.severity(allure.severity_level.CRITICAL)
 @pytest.mark.functional
+@pytest.mark.smoke
 def test_cart_view(products_page):
 
     with allure.step("Add two products to cart"):
@@ -60,6 +61,7 @@ def test_cart_remove_item(products_page):
 @allure.story("Continue shopping from cart")
 @allure.severity(allure.severity_level.MINOR)
 @pytest.mark.functional
+@pytest.mark.smoke
 def test_continue_shopping(products_page):
 
     with allure.step("Add product to cart"):
