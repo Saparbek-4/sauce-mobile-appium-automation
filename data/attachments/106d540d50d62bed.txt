@@ -39,5 +39,6 @@ ERROR    framework:base_page.py:75 Failed to get text: ('xpath', "//*[@content-d
 Stacktrace:
 NoSuchElementError: An element could not be located on the page using the given search parameters.
     at AndroidUiautomator2Driver.findElOrEls (/nix/store/7gcl75xhklpjnw78s382pkyxgviyrsk4-appium-1.22.0/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+    at runMicrotasks (<anonymous>)
     at processTicksAndRejections (internal/process/task_queues.js:97:5)
 WARNING  framework:products_page.py:153 Cart badge not found, returning 0
