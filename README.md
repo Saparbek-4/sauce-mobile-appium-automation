@@ -196,8 +196,8 @@ class LoginPage(BasePage):
 ## 📝 Author
 
 **Saparbek Kozhanazar**  
-*Automation QA Engineer*  
-📧 saparbek@example.com *(укажи реальную почту)*
+*AQA Engineer*  
+📧 kozhanazar21@@gmail.com
 
 ---
 
