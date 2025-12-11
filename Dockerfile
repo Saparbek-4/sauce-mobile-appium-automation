@@ -10,7 +10,7 @@ RUN apt-get update && apt-get install -y \
 # -----------------------------
 # Install Appium 2 + drivers
 # -----------------------------
-RUN npm install -g appium@2.11.0 \
+RUN npm install -g appium@2.10.2 \
     && appium driver install uiautomator2
 
 # -----------------------------
