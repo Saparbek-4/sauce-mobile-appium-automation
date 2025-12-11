@@ -4,14 +4,8 @@ FROM python:3.10-slim
 # Install system dependencies
 # -----------------------------
 RUN apt-get update && apt-get install -y \
-    nodejs npm curl unzip default-jdk \
+    curl unzip default-jdk \
     && apt-get clean
-
-# -----------------------------
-# Install Appium 2 + drivers
-# -----------------------------
-RUN npm install -g appium@2.10.2 \
-    && appium driver install uiautomator2
 
 # -----------------------------
 # App working directory
