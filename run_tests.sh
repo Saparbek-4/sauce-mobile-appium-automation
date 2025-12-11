@@ -1,0 +1,1 @@
+pytest --env=browserstack --alluredir=allure-results

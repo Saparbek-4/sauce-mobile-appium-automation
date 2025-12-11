@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  mobile-tests:
+    build: .
+    container_name: mobile-tests
+    environment:
+      BS_USERNAME: ${BS_USERNAME}
+      BS_ACCESS_KEY: ${BS_ACCESS_KEY}
+      BS_APP_ID: ${BS_APP_ID}
+    volumes:
+      - ./allure-results:/app/allure-results
